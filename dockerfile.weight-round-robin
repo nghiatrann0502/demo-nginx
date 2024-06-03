@@ -1,0 +1,3 @@
+FROM nginx:alpine
+COPY nginx-weight-round-robin.conf /etc/nginx/nginx.conf
+
